@@ -73,4 +73,5 @@ set_property(
 	TARGET dbgen qgen
 	APPEND PROPERTY COMPILE_OPTIONS
 		-Wall
+		-fPIC
 )
